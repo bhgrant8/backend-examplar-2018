@@ -5,4 +5,4 @@ sudo: required
 services:
   - docker
 script:
-  - './bin/build-test-proj.sh -d'
+  - './bin/testa.sh -d'
