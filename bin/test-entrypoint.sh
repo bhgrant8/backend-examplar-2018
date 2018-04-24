@@ -19,5 +19,6 @@ set -e
 # echo "Migrate"
 # ./manage.py migrate
 
+sleep 5
 
 ./manage.py test --nomigrations
