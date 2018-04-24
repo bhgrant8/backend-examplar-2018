@@ -4,5 +4,7 @@
 sudo: required
 services:
   - docker
+before_script:
+  - env > .env
 script:
   - './bin/test.sh -d'
