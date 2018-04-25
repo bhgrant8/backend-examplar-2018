@@ -19,5 +19,9 @@ done
 # echo "Migrate"
 # ./manage.py migrate
 
+# Collect static files
+echo "Collect static files"
+./manage.py collectstatic --noinput
+
 
 ./manage.py test --nomigrations
